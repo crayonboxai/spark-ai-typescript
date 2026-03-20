@@ -1,6 +1,5 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { APIError } from './core/error';
 import type { RequestInit, RequestInfo, BodyInit } from './internal/builtin-types';
 import type { HTTPMethod, PromiseOrValue, MergedRequestInit, FinalizedRequestInit } from './internal/types';
 import { uuid4 } from './internal/utils/uuid';
@@ -27,7 +26,7 @@ import {
 import { EvaluationRecordParams, EvaluationRecordResponse, Evaluations } from './resources/evaluations';
 import { Health, HealthCheckResponse } from './resources/health';
 import {
-  APIError,
+  type APIError as SearchAPIError,
   Search,
   SearchCreateParams,
   SearchResponse,
@@ -778,9 +777,10 @@ export declare namespace SparkAI {
 
   export { Health as Health, type HealthCheckResponse as HealthCheckResponse };
 
+  export type APIError = SearchAPIError;
+
   export {
     Search as Search,
-    type APIError as APIError,
     type SearchResponse as SearchResponse,
     type SearchCreateParams as SearchCreateParams,
     type SearchRetrieveParams as SearchRetrieveParams,
