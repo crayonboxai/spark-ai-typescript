@@ -5,8 +5,8 @@
   "compilerOptions": {
     "rootDir": "./dist/src",
     "paths": {
-      "spark-ai/*": ["./dist/src/*"],
-      "spark-ai": ["./dist/src/index.ts"]
+      "@crayonboxai/spark-ai/*": ["./dist/src/*"],
+      "@crayonboxai/spark-ai": ["./dist/src/index.ts"]
     },
     "noEmit": false,
     "declaration": true,
