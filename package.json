@@ -1,6 +1,6 @@
 {
   "name": "@crayonboxai/spark-ai",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The official TypeScript library for the Spark AI API",
   "author": "Spark AI <>",
   "types": "dist/index.d.ts",
