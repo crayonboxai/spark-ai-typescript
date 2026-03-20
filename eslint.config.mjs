@@ -25,7 +25,7 @@ export default tseslint.config(
         {
           patterns: [
             {
-              regex: '^spark-ai(/.*)?',
+              regex: '^@crayonboxai/spark-ai(/.*)?',
               message: 'Use a relative import, not a package import.',
             },
           ],

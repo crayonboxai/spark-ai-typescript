@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import SparkAI from 'spark-ai';
+import SparkAI from '@crayonboxai/spark-ai';
 
 const client = new SparkAI({
   apiKey: 'My API Key',

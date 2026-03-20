@@ -55,12 +55,12 @@ $ cd spark-ai-typescript
 # With yarn
 $ yarn link
 $ cd ../my-package
-$ yarn link spark-ai
+$ yarn link @crayonboxai/spark-ai
 
 # With pnpm
 $ pnpm link --global
 $ cd ../my-package
-$ pnpm link --global spark-ai
+$ pnpm link --global @crayonboxai/spark-ai
 ```
 
 ## Running tests

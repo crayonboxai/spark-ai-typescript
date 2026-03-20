@@ -1,7 +1,7 @@
 import iconv from 'iconv-lite';
-import { stringify } from 'spark-ai/internal/qs';
-import { encode } from 'spark-ai/internal/qs/utils';
-import { StringifyOptions } from 'spark-ai/internal/qs/types';
+import { stringify } from '@crayonboxai/spark-ai/internal/qs';
+import { encode } from '@crayonboxai/spark-ai/internal/qs/utils';
+import { StringifyOptions } from '@crayonboxai/spark-ai/internal/qs/types';
 import { empty_test_cases } from './empty-keys-cases';
 import assert from 'assert';
 

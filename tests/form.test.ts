@@ -1,5 +1,5 @@
-import { multipartFormRequestOptions, createForm } from 'spark-ai/internal/uploads';
-import { toFile } from 'spark-ai/core/uploads';
+import { multipartFormRequestOptions, createForm } from '@crayonboxai/spark-ai/internal/uploads';
+import { toFile } from '@crayonboxai/spark-ai/core/uploads';
 
 describe('form data validation', () => {
   test('valid values do not error', async () => {
