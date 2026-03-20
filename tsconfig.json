@@ -8,8 +8,8 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "paths": {
-      "spark-ai/*": ["./src/*"],
-      "spark-ai": ["./src/index.ts"]
+      "@crayonboxai/spark-ai/*": ["./src/*"],
+      "@crayonboxai/spark-ai": ["./src/index.ts"]
     },
     "noEmit": true,
 

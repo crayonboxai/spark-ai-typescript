@@ -1,10 +1,10 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { APIPromise } from 'spark-ai/core/api-promise';
+import { APIPromise } from '@crayonboxai/spark-ai/core/api-promise';
 
 import util from 'node:util';
-import SparkAI from 'spark-ai';
-import { APIUserAbortError } from 'spark-ai';
+import SparkAI from '@crayonboxai/spark-ai';
+import { APIUserAbortError } from '@crayonboxai/spark-ai';
 const defaultFetch = fetch;
 
 describe('instantiate client', () => {

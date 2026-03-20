@@ -1,5 +1,5 @@
 import { inspect } from 'node:util';
-import { buildHeaders, type HeadersLike, type NullableHeaders } from 'spark-ai/internal/headers';
+import { buildHeaders, type HeadersLike, type NullableHeaders } from '@crayonboxai/spark-ai/internal/headers';
 
 function inspectNullableHeaders(headers: NullableHeaders) {
   return `NullableHeaders {${[
