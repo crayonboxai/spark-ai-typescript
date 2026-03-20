@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.3 (2026-03-20)
+
+Full Changelog: [v0.0.2...v0.0.3](https://github.com/crayonboxai/spark-ai-typescript/compare/v0.0.2...v0.0.3)
+
 ## 0.0.2 (2026-03-20)
 
 Full Changelog: [v0.0.1...v0.0.2](https://github.com/crayonboxai/spark-ai-typescript/compare/v0.0.1...v0.0.2)
